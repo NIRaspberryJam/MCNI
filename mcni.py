@@ -30,3 +30,19 @@ def drawSphere(mc, x1, y1, z1, radius, blocktype, blockdata=0):
                     mc.setBlock(x1 + x, y1 + y, z1 +z, blocktype, blockdata)
 
 
+def printBlockOnce(block)
+    x, y, z = mc.player.getPos()
+    mc.setBlock(x+3, y+3, z, block)
+    
+def printBlockForever(block)
+    while True:
+        x, y, z = mc.player.getPos()
+        mc.setBlock(x+3, y+3, z, block)  
+ 
+def printBlockForT(t,block)
+    while t>0:
+        x, y, z = mc.player.getPos()
+        mc.setBlock(x+3, y+3, z, block)
+        t = t-1
+        
+        
