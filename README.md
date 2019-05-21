@@ -1,5 +1,6 @@
 # MCNI
-A library built by the NI Raspberry Jam team that extends the Minecraft Pi Edition MCPI library to add additional functions for use at the Jam.
+A library built by the NI Raspberry Jam team that extends the Minecraft Pi Edition MCPI library to add additional functions for use at the Jam.   
+Still very much work in progress and builds on top of the current mcpi library.
 
 # Building for PyPi
 The package can be built with
